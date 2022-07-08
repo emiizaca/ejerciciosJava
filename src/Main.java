@@ -7,6 +7,21 @@ public class Main {
         persona.setNombre("Carlos");
         persona.setTelefono(123123123);
         System.out.println("Nombre: "+persona.getNombre()+" Edad: "+persona.getEdad()+" Telefono: "+persona.getTelefono());
+
+        Cliente cliente = new Cliente();
+        cliente.setEdad(25);
+        cliente.setNombre("Flaco");
+        cliente.setTelefono(321321321);
+        cliente.setCredito(1500);
+        System.out.println("Nombre: "+cliente.getNombre()+" Edad: "+cliente.getEdad()+" Telefono: "+cliente.getTelefono()+" Credito: "+cliente.getCredito());
+
+        Trabajador trabajador = new Trabajador();
+        trabajador.setEdad(45);
+        trabajador.setNombre("Roberto");
+        trabajador.setTelefono(123456123);
+        trabajador.setSalario(100000);
+        System.out.println("Nombre: "+trabajador.getNombre()+" Edad: "+trabajador.getEdad()+" Telefono: "+trabajador.getTelefono()+" Salario: "+trabajador.getSalario());
+        
         /*System.out.println(suma(5,6,7));
         Coche coche = new Coche();
         coche.sumarPuerta();
