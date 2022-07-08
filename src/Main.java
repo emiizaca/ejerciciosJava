@@ -2,6 +2,11 @@ public class Main {
     public static void main(String[] args) {
 
         System.out.println("Hello world!");
+        Persona persona = new Persona();
+        persona.setEdad(20);
+        persona.setNombre("Carlos");
+        persona.setTelefono(123123123);
+        System.out.println("Nombre: "+persona.getNombre()+" Edad: "+persona.getEdad()+" Telefono: "+persona.getTelefono());
         /*System.out.println(suma(5,6,7));
         Coche coche = new Coche();
         coche.sumarPuerta();
